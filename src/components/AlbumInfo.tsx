@@ -6,10 +6,12 @@ export function AlbumInfo(props: {isNew: boolean | false, title: string, artist:
     function PlayButton(){
         
         return (
-            <button className='play-btn'>
-                <PlayIcon style={{ width: 20, height: 20 }} /> {}
-                Ouvir Agora
-            </button>
+            <a href={props.link} target='_blank' >
+                <button className='play-btn'>
+                    <PlayIcon style={{ width: 20, height: 20 }} /> {}
+                    Ouvir Agora
+                </button>
+            </a>
         );
     }
 

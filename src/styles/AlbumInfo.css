@@ -70,5 +70,9 @@ h3 {
 .share-btn {
     background-color: transparent;
     color: #B9B9B9;
-    width: 145px !important;
+    width: 140px !important;
+}
+
+a {
+    text-decoration: none;
 }
