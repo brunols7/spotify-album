@@ -9,7 +9,7 @@ export function AlbumInfo(props: {isNew: boolean | false, title: string, artist:
             <a href={props.link} target='_blank' >
                 <button className='play-btn'>
                     <PlayIcon style={{ width: 20, height: 20 }} /> {}
-                    Ouvir Agora
+                    Play Now
                 </button>
             </a>
         );
@@ -19,7 +19,7 @@ export function AlbumInfo(props: {isNew: boolean | false, title: string, artist:
         return (
             <button className='favorite-btn'>
                 <HeartIcon style={{ width: 20, height: 20 }} /> {}
-                Adicionar à playlist
+                Add to Library
             </button>
         )
     }
@@ -27,13 +27,13 @@ export function AlbumInfo(props: {isNew: boolean | false, title: string, artist:
     function ShareButton(){
         return <button className='share-btn'>
             <ShareIcon style={{ width: 20, height: 20 }} />
-            Compartilhar
+            Share
         </button>
     }
 
     return (
         <div className="info">
-            {props.isNew && <p className="new">Novo Álbum</p>}
+            {props.isNew && <p className="new">New Album</p>}
             <h1>{props.title}</h1>
             <h3>by {props.artist}</h3>
             <p className="bio">{props.bio}</p>
