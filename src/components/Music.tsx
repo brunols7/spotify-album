@@ -1,6 +1,6 @@
 import '../styles/Music.css'
 
-export function Music(){
+export function Music(props: {photo_url : string, spotify: string, alt: string}){
 
     function AlbumPhoto(props: {photo_url : string, alt: string}){
         return (
@@ -17,8 +17,8 @@ export function Music(){
     return (
 
         <div className="musicCard">
-            <AlbumPhoto photo_url="https://akamai.sscdn.co/uploadfile/letras/albuns/7/5/9/b/2621201738316056.jpg" alt="Album Hurry Up Tomorrow - The Weeknd"/>
-            <SpotifyLink link="https://scannables.scdn.co/uri/plain/png/121212/white/640/spotify:album:3OxfaVgvTxUTy7276t7SPU"/>
+            <AlbumPhoto photo_url={props.photo_url} alt={props.alt}/>
+            <SpotifyLink link={props.spotify}/>
         </div>
 
     );
