@@ -1,5 +1,5 @@
 .info {
-    max-width: 520px;
+    max-width: 620px;
     text-align: start;
     height: auto;
     color: white;
@@ -31,4 +31,44 @@ h3 {
     font-size: 16px;
     font-weight: 500;
     margin: 0;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button{
+    border-radius: 8px;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    height: 52px;
+    width: 200px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.buttons button:hover{
+    transform: scale(1.03);
+}
+
+.play-btn {
+    color: white;
+    background-color: #85BCBF;
+}
+
+.favorite-btn {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white !important; 
+}
+
+.share-btn {
+    background-color: transparent;
+    color: #B9B9B9;
+    width: 145px !important;
 }
