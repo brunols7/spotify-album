@@ -1,4 +1,4 @@
-import '../styles/Container.css'
+import '../../styles/Container.css'
 import { AlbumInfo } from './AlbumInfo';
 import { Music } from './Music';
 

@@ -8,9 +8,35 @@ html, body {
 body {
     flex-direction: column;
     flex: auto;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #121212;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+  position: relative;
+}
+
+.new-album::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(12,12,12,0), black);
+}
+
+.faixas{
+    background-color: black;
 }

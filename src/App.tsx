@@ -1,5 +1,7 @@
 import './styles/App.css';
-import { Container } from './components/Container';
+import { Container } from './components/AlbumInfo/Container';
+import { Faixas } from './components/Faixas/Faixas';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
 
@@ -8,6 +10,10 @@ function App() {
       <section className='new-album'>
         <Container/>
       </section>
+      <section className='faixas'>
+        <Faixas/>
+      </section>
+      <Footer/>
       
     </>
   )

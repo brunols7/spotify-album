@@ -1,0 +1,35 @@
+.music-tile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 20px 0 20px;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    gap: 24px;
+}
+
+.index{
+    color: #b9b9b9;
+}
+
+.duration {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #b9b9b9;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+hr.rounded {
+  border: none;
+  height: 1px;
+  background-color: #0f0f0f;
+  border-radius: 5px;
+  margin: 16px 0;
+}

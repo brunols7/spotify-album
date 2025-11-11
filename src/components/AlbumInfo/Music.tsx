@@ -1,4 +1,4 @@
-import '../styles/Music.css'
+import '../../styles/Music.css'
 
 export function Music(props: {photo_url : string, spotify: string, alt: string}){
 

@@ -1,4 +1,4 @@
-import '../styles/AlbumInfo.css'
+import '../../styles/AlbumInfo.css'
 import { PlayIcon, HeartIcon, ShareIcon } from '@heroicons/react/24/outline';
 
 export function AlbumInfo(props: {isNew: boolean | false, title: string, artist: string, bio: string, link: string}){
