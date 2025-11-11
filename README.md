@@ -1,5 +1,6 @@
 # 🎵 Spotify Album Project
-This project is an interface inspired by Spotify, developed with **React**, based on the original design created by **Mariana Vidal**. The goal of the project is to practice **component-based development in React** and **TypeScript typing**.
+This project is a **Spotify-inspired interface**, developed with **React**, based on the original design by **Mariana Vidal**.</br>
+The main goal is to practice component-based development in **React** and **TypeScript typing**.
 
 ---
 
@@ -17,6 +18,6 @@ The original design was created by **Mariana Vidal**.
 
 ---
 
-### 💡 Notes
-- Project focused on frontend practice and UI design implementation.
-- Ideal for learning React and TypeScript.
+### 📝 Notes
+- Project focused on **frontend practice** and implementing **UI designs**
+- Ideal for learning **React** and **TypeScript**.
