@@ -11,6 +11,16 @@ The main goal is to practice component-based development in **React** and **Type
 
 ---
 
+## 📸 Screenshots
+
+Main view of the Spotify Album interface.
+![Album](./screenshots/album.png)
+
+List of tracks with duration and index.
+![Tracklist](./screenshots/tracklist.png)
+
+---
+
 ## 🎨 Design
 The original design was created by **Mariana Vidal**.
 - LinkedIn: [Mariana Vidal](https://www.linkedin.com/in/marividal)
