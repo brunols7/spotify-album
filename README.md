@@ -1,22 +1,22 @@
-# Projeto Spotify Album
-Este projeto é uma da interface inspirada no Spotify, desenvolvido com **React**, inspirado no design original criado por **Mariana Vidal**. O objetivo do projeto é praticar **componentização em React** e **tipagem com TypeScript**.
+# 🎵 Spotify Album Project
+This project is an interface inspired by Spotify, developed with **React**, based on the original design created by **Mariana Vidal**. The goal of the project is to practice **component-based development in React** and **TypeScript typing**.
 
 ---
 
-## Tecnologias Utilizadas
+## 🛠 Technologies Used
 - **React**
 - **TypeScript**
 - **CSS**
 
 ---
 
-## Design
-O design original foi criado por **Mariana Vidal**.
+## 🎨 Design
+The original design was created by **Mariana Vidal**.
 - LinkedIn: [Mariana Vidal](https://www.linkedin.com/in/marividal)
-- Behance: [Projeto no Behance](https://www.behance.net/gallery/232216015/Spotify-Album-%28Daily-UI-003%29)
+- Behance: [Project on Behance](https://www.behance.net/gallery/232216015/Spotify-Album-%28Daily-UI-003%29)
 
 ---
 
-### Observações
-- Projeto focado em prática de frontend e consumo de designs de UI.
-- Ideal para estudo de React e TypeScript.
+### 💡 Notes
+- Project focused on frontend practice and UI design implementation.
+- Ideal for learning React and TypeScript.
